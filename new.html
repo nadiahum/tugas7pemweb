@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>FORM</title>
+</head>
+
+<style type="text/css">
+    #save {
+        color: white;
+    }
+</style>
+
+<body style="background-color: #ed97f4;">
+    <div class="form-box"  style="background-color: #ed97f4">
+        <center>
+          <h1>Pendataan Mahasiswa SI</h1>
+          </center>
+    <body>
+<form action="insert.php" method="POST">
+                <label for="name">NAMA</label>
+                <input type="text" id="nama" name="nama" placeholder="Masukkan Nama Lengkap Anda....">
+                <br>
+                <label for="lname">UMUR</label> 
+                <input type="number" id="umur" name="umur" placeholder="Masukan Umur Anda....">
+                <br>
+                <label for="name">Email</label> 
+                <input type="text" id="email" name="email" placeholder="Masukan Email Anda....">
+                <br>
+                <label for="name">Telepon</label><br>
+                <input type="number" id="telepon" name="telepon" placeholder="Masukan Nomor Telepon....">
+                <br>
+                <input id="save" type="submit" value="Submit!"
+                style="background-color: #37474f">
+        </form>
+    </body>
+</html>
